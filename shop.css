@@ -1,0 +1,366 @@
+.product h3{
+  font-family: Cooper;
+   font-size: 40px;
+    margin-top: -270px;
+    margin-left: 50px;
+} 
+
+.page1{
+  margin-top: 250px;
+}
+.page1  h1{
+  font-family: Cooper;
+   font-size: 60px;
+   padding: 70px;
+    margin-left: 60px;
+    text-align: center;
+} 
+.page1  h1:hover{
+  color: orange;
+
+}
+.page1 img{
+  transition: 3s;
+  padding: 6px;
+}
+.card-body{
+  background-color: whitesmoke;
+}
+.page1 img:hover{
+  transform: scale(0.8);
+}
+.card-body h4{
+  font-family: Cooper;
+}
+.card-body p{
+  font-family: Centaur;
+  font-weight: bold;
+}
+.card-body h6{
+  font-family: Centaur;
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+.card-body button{
+  background-color: rgb(51, 44, 44);
+  padding: 8px;
+  color: white;
+  transition: 1s;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.page2{
+  margin-top: 50px;
+}
+
+.page2 img{
+  transition: 3s;
+  padding: 6px;
+}
+.page2 img:hover{
+  transform: scale(0.8);
+}
+.card-body button:hover{
+  background-color: orange;
+  color: black;
+}
+.card-body button a{
+  text-decoration: none;
+  color: white;
+
+}
+.img3{
+  margin-top: 60px;
+}
+
+/* page2 end */
+.page3{
+  margin-top: 40px;
+}
+
+.page3 img{
+  transition: 3s;
+  padding: 6px;
+}
+.page3 img:hover{
+  transform: scale(0.8);
+}
+.page3  h1{
+  font-family: Cooper;
+   font-size: 60px;
+   padding: 40px;
+    margin-left: 60px;
+    text-align: center;
+} 
+.page3  h1:hover{
+  color: orange;
+}
+
+/* page3 end */
+
+
+.page4{
+  margin-top: -20px;
+}
+
+.page4 img{
+  transition: 3s;
+  padding: 6px;
+}
+.page4 img:hover{
+  transform: scale(0.8);
+}
+.page4  h1{
+  font-family: Cooper;
+   font-size: 60px;
+   padding: 40px;
+    margin-left: 60px;
+    text-align: center;
+} 
+.page4  h1:hover{
+  color: orange;
+}
+
+/* page4 end */
+.video video{
+  height: 450px;
+  width: 1020px;
+  margin-left: -200px;
+  margin-top: 70px;
+}
+.toy h3{
+  margin-top: -400px;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: cooper;
+  margin-left: 780px;
+}
+ 
+.toy p{
+  margin-top: 10px;
+  font-weight: bold;
+  font-family: Centaur;
+  margin-left: 780px;
+}
+.page5{
+  margin-top: 400px;
+}
+.toy button{
+  background-color: rgb(51, 44, 44);
+  padding: 8px;
+  color: white;
+  transition: 1s;
+  margin-left: 780px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.toy button:hover{
+  background-color: orange;
+  color: black;
+  cursor: pointer;
+}
+
+/* page4 end */
+.page5{
+  margin-top: 120px;
+}
+
+.page5 img{
+  transition: 3s;
+  padding: 6px;
+}
+.page5 img:hover{
+  transform: scale(0.8);
+}
+.page5  h1{
+  font-family: Cooper;
+   font-size: 60px;
+   padding: 40px;
+    margin-left: 60px;
+    text-align: center;
+} 
+.page5  h1:hover{
+  color: orange;
+}
+/* page5 end */
+
+
+.page6{
+  margin-top: 40px;
+}
+
+.page6 img{
+  transition: 3s;
+  padding: 6px;
+}
+.page6 img:hover{
+  transform: scale(0.8);
+}
+.page6 h1{
+  font-family: Cooper;
+   font-size: 60px;
+   padding: 40px;
+    margin-left: 60px;
+    text-align: center;
+} 
+.page6  h1:hover{
+  color: orange;
+}
+
+
+/* page6 end */
+.page7 h1{
+  font-family: Cooper;
+   font-size: 60px;
+   padding: 40px;
+    margin-left: 60px;
+    text-align: center;
+} 
+.page7  h1:hover{
+  color: orange;
+}
+.page7 img{
+  border-radius: 10px;
+}
+/* footer */
+.footer{
+  height: 300px;
+  transition: 3s;
+  width: 100%;
+  background-color: rgb(31, 29, 29);
+  padding: 30px;
+  margin-top: 100px;
+}
+.footer .footer1.p{
+ color: white;
+
+}
+.footer2{
+  margin-top: -250px;
+  margin-left: 350px;
+  color: aliceblue;
+}
+.footer2 h4{
+  color: white;
+  font-family: cooper;
+  margin-left: -30px;
+}
+
+.footer3 {
+  margin-top: -160px;
+  margin-left: 580px;
+  color: white;
+  
+}
+.footer3 h4{
+  font-weight: bold;
+  font-family: cooper;
+}
+.footer3 ul li{
+  display: flex;
+  margin-left: -38px;
+}
+.footer4{
+    color: white;
+    margin-top: -100px;
+    margin-left: 830px;
+}
+.footer4 h4{
+  color: white;
+  font-family: cooper;
+  margin-top: -175px;
+}
+.footer5 .text-center{
+  margin-top: -30px;
+  color: white;
+}
+.footer2 .footer-links a{
+  text-decoration: none;
+  color: white;
+}
+
+.footer2 .footer-links a:hover{
+  color: orange;
+}
+.footer3 ul li:hover{
+  color: orange;
+}
+.footer4 .add:hover{
+  color: orange;
+}
+.footer h4:hover{
+  color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1000px){
+  .product img{
+    margin: auto;
+    height: auto;
+    width: 100%;
+
+  }
+  .product h3{
+    margin: auto;
+  }
+  .page1 h1{
+    margin: auto;
+    margin-top: -200px;
+  }
+  .img3 img{
+    margin: auto;
+    height: auto;
+    width: 100%;
+  }
+  .video video{
+    margin: auto;
+    height: auto;
+    width: 70%;
+  }
+  .toy h3{
+    margin: auto;
+    font-size: 20px;
+  }
+  .toy p{
+    margin: auto;
+  }
+  .toy button{
+    margin: auto;
+  }
+.footer{
+  margin: auto;
+  background-color: black;
+  height: 100%;
+}
+.footer1{
+  margin: auto;
+}
+.footer2{
+  margin: auto;
+  margin-top:70px;
+}
+.footer3{
+  margin: auto;
+  margin-top: 70px;
+}
+.footer4{
+  margin: auto;
+  margin-top: 200px;
+}
+.footer5{
+  margin: auto;
+  margin-top: 249px;
+}
+}

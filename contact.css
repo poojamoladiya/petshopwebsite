@@ -1,0 +1,183 @@
+.page1  h1{
+  margin-top: -210px;
+  font-family: Cooper;
+  text-align: center;
+  
+  font-size: 60px;
+  }
+  .page1 h1:hover{
+    color: orange;
+  }
+  .page1 img{
+    margin-left: 280px;
+  }
+  .page2{
+    margin-top: 300px;
+  }
+  .page2 h3{
+    font-family: cooper;
+    
+  }
+  .page2a{
+    margin-top: 300px;
+  }
+  .page2a h3{
+    font-family: cooper;
+  }
+  .page2b{
+    margin-top: 300px;
+    margin-left: 70px;
+  }
+  .page2b h3{
+    font-family: cooper;
+  }
+  .page2c{
+    margin-top: 300px;
+    margin-left: 80px;
+  }
+  .page2c h3{
+    font-family: cooper;
+  }
+   /* page8 end */
+   .page12{
+    margin-top: 160px;
+  }
+  .page12 img{
+    height: 500px;
+    width: 600px;
+  }
+  .page12 h4{
+    color: black;
+    font-family: cooper;
+    font-weight: bold;
+ }
+ .btn{
+    padding: 10px;
+ }
+
+/* page12 end */
+.page5{
+    margin-top: 100px;
+}
+
+/* footer */
+.footer{
+  height: 300px;
+  transition: 3s;
+  width: 100%;
+  background-color: rgb(31, 29, 29);
+  padding: 30px;
+  margin-top: 60px;
+}
+.footer .footer1.p{
+ color: white;
+
+}
+.footer2{
+  margin-top: -250px;
+  margin-left: 350px;
+  color: aliceblue;
+}
+.footer2 h4{
+  color: white;
+  font-family: cooper;
+  margin-left: -30px;
+}
+
+.footer3 {
+  margin-top: -160px;
+  margin-left: 580px;
+  color: white;
+  
+}
+.footer3 h4{
+  font-weight: bold;
+  font-family: cooper;
+}
+.footer3 ul li{
+  display: flex;
+  margin-left: -38px;
+}
+.footer4{
+    color: white;
+    margin-top: -100px;
+    margin-left: 830px;
+}
+.footer4 h4{
+  color: white;
+  font-family: cooper;
+  margin-top: -195px;
+}
+.footer5 .text-center{
+  margin-top: -30px;
+  color: white;
+}
+.footer2 .footer-links a{
+  text-decoration: none;
+  color: white;
+}
+
+.footer2 .footer-links a:hover{
+  color: orange;
+}
+.footer3 ul li:hover{
+  color: orange;
+}
+.footer4 .add:hover{
+  color: orange;
+}
+.footer h4:hover{
+  color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+  
+  @media screen and (max-width:1000px){
+    .page1 img{
+        margin: auto;
+        height: auto;
+        width: 100%;
+    }
+    .page1 h1{
+        margin: auto;
+        font-size: 20px;
+    }
+    .page5 iframe{
+        margin: auto;
+    }
+    .footer{
+        margin: auto;
+        background-color: black;
+        height: 100%;
+      }
+      .footer1{
+        margin: auto;
+      }
+      .footer2{
+        margin: auto;
+        margin-top:70px;
+      }
+      .footer3{
+        margin: auto;
+        margin-top: 70px;
+      }
+      .footer4{
+        margin: auto;
+        margin-top: 200px;
+      }
+      .footer5{
+        margin: auto;
+        margin-top: 249px;
+      }
+ 
+    
+
+  }

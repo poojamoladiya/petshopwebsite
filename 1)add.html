@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pet Shop Toy Order</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Centering the form */
+    .center {
+      margin: auto;
+      width: 60%;
+      padding: 20px;
+    }
+    .f{
+        margin-top: -700px;
+    }
+    /* Hover effect */
+    .form-control:hover {
+      border-color: #80bdff;
+      box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    }
+    /* Submit button style */
+    .btn-primary {
+      background-color: #007bff;
+      text-decoration: none;
+       color: white;
+      border-color: #007bff;
+    }
+    .btn-primary a{
+        text-decoration: none;
+        color: white;
+    }
+    .btn-primary:hover {
+      background-color: #0056b3;
+      border-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+    <div class="img">
+
+<div class="container center mt-4">
+  <h2 class="text-center mb-4">Pet Shop Toy Order Form</h2>
+  <form id="orderForm">
+    <div class="form-group">
+      <input type="text" class="form-control" id="toyName" placeholder=" Name" required>
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control" id="toyName" placeholder=" Email Address" required>
+      </div>
+    <div class="form-group">
+      <input type="number" class="form-control" id="quantity" placeholder="Product" required>
+    </div>
+    <div class="form-group">
+      <textarea class="form-control" id="address" rows="3" placeholder="Delivery Address" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary btn-block"><a href="1)gif.html">Submit Order</button></a>
+  </form>
+</div>
+
+<!-- Bootstrap JS and jQuery (required for Bootstrap) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+  // JavaScript for form submission
+  $(document).ready(function(){
+    $("#orderForm").submit(function(event){
+      event.preventDefault(); // Prevent default form submission
+
+      // Collect form data
+      var toyName = $("#toyName").val();
+      var quantity = $("#quantity").val();
+      var address = $("#address").val();
+
+      // Displaying the submitted data (you can replace this with AJAX call to send data to server)
+      alert("Order Details:\nToy Name: " + toyName + "\nQuantity: " + quantity + "\nDelivery Address: " + address);
+
+      // Clear the form fields after submission
+      $("#orderForm")[0].reset();
+    });
+  });
+</script>
+
+</body>
+</html>

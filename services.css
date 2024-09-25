@@ -1,0 +1,364 @@
+ .img1 img{
+    margin-left: -70px;
+    
+    
+}
+.page1 h1{
+    font-family: Cooper;
+     font-size: 77px;
+     margin-top: -280px;
+     color: white;
+      text-align: center;
+  } 
+  .page1 h1:hover{
+    color: orange;
+  }
+  /* page1 end */
+.page2{
+    margin-top: 300px;
+}
+.page2 h3{
+    font-family: cooper;
+    margin-left: 40px;
+    
+}
+.page2 p{
+    font-family:Centaur ;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.page2 h3:hover{
+  color: orange;
+}
+ /* page2 end */
+
+
+.video video{
+    height: 490px;
+    width: 1030px;
+    margin-left: -200px;
+    border-radius: 10px;
+    margin-top: 100px;
+  }
+
+  .page3 h3{
+    margin-top: -450px;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: cooper;
+    margin-left: 780px;
+  }
+   
+  .page3 p{
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: Centaur;
+    margin-left: 780px;
+  }
+  .page3 button{
+    background-color: rgb(51, 44, 44);
+    padding: 10px;
+    color: white;
+    transition: 1s;
+    margin-left: 780px;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  .page3 button:hover{
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+  }
+  .page3 h3:hover{
+    color: orange;
+  }
+  /* page3 end */
+  .page4 .img3 img{
+    margin-top: 170px;
+    border-radius: 10px;
+    height: 550px;
+    width: 640px;
+    float: right;
+    
+  }
+
+.font3 h2{
+  font-family: Cooper;
+  margin-top: 250px;
+  transition: 1s;
+  margin-left: 50px;
+  font-size: 50px;
+  float: left;
+}
+.font3 h2:hover{
+  color: orange;
+  border-bottom:2px solid black;
+}
+
+.font3 p{
+  font-family:Centaur;
+  margin-top: 320px;
+  padding: 5px;
+  margin-left: 50px;
+  font-size: 18px;
+  
+  font-weight: bold;
+}
+.font3 button{
+  background-color: rgb(44, 42, 42);
+  color: white;
+  padding: 17px;
+  margin: 4px;
+  margin-top: -150px;
+  margin-left: 36px;
+  border: none;
+  font-weight: bold;
+  transition: 1s;
+  border-radius: 13px;
+
+}
+.font3 button:hover{
+  background-color: orange;
+  color: black;
+} 
+/* page5 end */
+.page5 .container{
+  overflow: none;
+  margin-top: -10px;
+}
+.page5 h1{
+margin-top:140px;
+margin-right: 160px;
+font-family: Cooper;
+padding: 55px;
+font-size: 50px;
+text-align: center;
+margin-left: 200px;
+}
+.page5 h1:hover{
+  color: orange;
+}
+.w{
+  background-color: whitesmoke;
+  padding: 14px;
+  height:200px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.w p{
+  color: black;
+  font-family: Centaur;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.w img{
+  margin-top: 30px;
+}
+.w h3{
+  color: black;
+  font-family: Centaur;
+  font-weight: bold;
+}
+.w h3:hover{
+  color: orange;
+}
+.w h5{
+  color: black;
+  font-family: Centaur;
+  font-weight: bold;
+}
+.w h5:hover{
+  color: orange;
+}
+/* page 5 end */
+.page6 .container{
+  overflow: none;
+  margin-top: 50px;
+}
+/* page6 end */
+.page7 .container{
+  overflow: none;
+  margin-top: 50px;
+}
+/* .page7 end */
+.page8 h1{
+  margin-top:40px;
+  margin-right: 160px;
+  font-family: Cooper;
+  padding: 55px;
+  font-size: 50px;
+  text-align: center;
+  margin-left: 200px;
+  }
+  .page8 h1:hover{
+    color: orange;
+  }
+  /* page8 end */
+  .page12{
+    margin-top: 140px;
+  }
+  .page12 img{
+    height: 500px;
+    width: 670px;
+  }
+  .page12 h2{
+    color: black;
+    font-family: cooper;
+    font-weight: bold;
+ }
+ /* footer */
+.footer{
+  height: 300px;
+  transition: 3s;
+  width: 100%;
+  background-color: rgb(31, 29, 29);
+  padding: 30px;
+  margin-top: 100px;
+}
+.footer .footer1.p{
+ color: white;
+
+}
+.footer2{
+  margin-top: -250px;
+  margin-left: 350px;
+  color: aliceblue;
+}
+.footer2 h4{
+  color: white;
+  font-family: cooper;
+  margin-left: -30px;
+}
+
+.footer3 {
+  margin-top: -160px;
+  margin-left: 580px;
+  color: white;
+  
+}
+.footer3 h4{
+  font-weight: bold;
+  font-family: cooper;
+}
+.footer3 ul li{
+  display: flex;
+  margin-left: -38px;
+}
+.footer4{
+    color: white;
+    margin-top: -100px;
+    margin-left: 830px;
+}
+.footer4 h4{
+  color: white;
+  font-family: cooper;
+  margin-top: -195px;
+}
+.footer5 .text-center{
+  margin-top: -30px;
+  color: white;
+}
+.footer2 .footer-links a{
+  text-decoration: none;
+  color: white;
+}
+
+.footer2 .footer-links a:hover{
+  color: orange;
+}
+.footer3 ul li:hover{
+  color: orange;
+}
+.footer4 .add:hover{
+  color: orange;
+}
+.footer h4:hover{
+  color: orange;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1000px){
+    .img1 img{
+        height: auto;
+        width: 100%;
+        margin: auto;
+    }
+    .page1 h1{
+        margin: auto;
+        color: black;
+    }
+    .video video{
+      margin: auto;
+      height: auto;
+      width: 100%;
+    }
+    .page3 p{
+      margin: auto;
+    }
+    .page3 h3{
+      margin: auto;
+      font-size: 30px;
+    }
+    .page3 button{
+      margin: auto;
+    }
+    
+.page4{
+  margin: auto;
+  margin-top: -100px;
+}
+  .page4 .button{
+    margin: auto;
+
+  }
+ .page4 .img3 img{
+  height: auto;
+  width: 100%;
+ }
+ .font3 h2{
+  margin: auto;
+  font-size: 20px;
+ }
+ .font3 p{
+  margin: auto;
+ }
+.page5 h1{
+  margin: auto;
+  font-size: 20px;
+}
+.page8 h1{
+  margin: auto;
+  font-size: 20px;
+}
+.footer{
+  margin: auto;
+  background-color: black;
+  height: 100%;
+}
+.footer1{
+  margin: auto;
+}
+.footer2{
+  margin: auto;
+  margin-top:70px;
+}
+.footer3{
+  margin: auto;
+  margin-top: 70px;
+}
+.footer4{
+  margin: auto;
+  margin-top: 200px;
+}
+.footer5{
+  margin: auto;
+  margin-top: 249px;
+}
+}

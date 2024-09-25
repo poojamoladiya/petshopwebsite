@@ -1,0 +1,677 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    min-height: 100vh;
+    background: url('laptop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  nav{
+    background-color: rgb(69, 65, 65);
+    padding: 23px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  }
+  nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  nav li{
+    height: 50px;
+  }
+  nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  nav a:hover{
+  color: orange;
+  } 
+  nav li:first-child{
+    margin-right: auto;
+  }
+  .sidebar{
+    position: fixed;
+    top: 0; 
+    right: 0;
+    height: 70vh;
+    width: 250px;
+    background-color:rgb(32, 28, 28);
+    
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .sidebar li{
+    width: 100%;
+    color: black;
+  }
+  .sidebar a{
+    width: 100%;
+  }
+  .menu-button{
+    display: none;
+  }
+  .logo{
+    font-family:Elephant;
+    margin-top: 10px;
+    
+    
+  }
+/* page1 */
+.page .font h1{
+  font-family: Cooper;
+   font-size: 70px;
+    margin-top: -400px;
+    margin-left: 387px;
+    cursor: pointer;
+} 
+.font p{
+  margin-left: 542px;
+  font-weight: bold;
+  transition: 1s;
+  font-size:20px;
+  font-family:Cooper ;
+}
+.font p:hover{
+  color: orange;
+  border-bottom: 2px solid black;
+}
+/* page1 end */
+
+
+/* page2 start */
+.page2 .img3 img{
+  height: 550px;
+  margin-top: 240px;
+  width:600px;
+  border-radius: 10px;
+}
+
+.page2 .font1 h1{
+color: black;
+float: right;
+margin-right: 160px;
+font-family: Cooper;
+}
+.page2 .icon{
+margin-left: 870px;
+margin-top: -460px;
+}
+.page2 .font1 p{
+color: black;
+font-weight: bold;
+font-family: Centaur;
+float: right;
+margin-left: 650px;
+margin-top: 30px;
+
+}
+.page2 .button {
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: Centaur;
+padding: 10px 15px;
+gap: 15px;
+padding: 20px;
+margin: 200px;
+background-color: #181717;
+outline: 3px #181717 solid;
+outline-offset: -3px;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+margin-left: 800px;
+transition: 400ms;
+}
+
+.button .text {
+color: white;
+font-size: 20px;
+font-weight: bold;
+transition: 400ms;
+}
+
+.button svg path {
+transition: 400ms;
+}
+
+.button:hover {
+background-color: transparent;
+}
+
+.button:hover .text {
+color: #181717;
+}
+
+.button:hover svg path {
+fill: #181717;}
+/* 
+page 2 end */
+
+/* page3 start */
+.page3 h1{
+  margin-top: 100px;
+    font-family: Cooper;
+    font-size: 45px;
+    transition: 1s;
+    text-align: center;
+  }
+  .page3 h1:hover{
+    color: orange;
+
+  }
+  .page3 .img3 img{
+    margin-top: 40px;
+    height: 400px;
+    width: 590px;
+    float: right;
+    
+  }
+
+.font3 h3{
+  font-family: Elephant;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 30px;
+  float: left;
+}
+.font3 p{
+  font-family:Centaur;
+  margin-top: 80px;
+  margin-left: 50px;
+  font-size: 18px;
+  
+  font-weight: bold;
+}
+/* page3 end */
+
+.page4 h1{
+  margin-top: 100px;
+    font-family: Cooper;
+    font-size: 45px;
+    transition: 1s;
+    text-align: center;
+  }
+  .page4 h1:hover{
+    color: orange;
+
+  }
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin-left: 60px;
+  margin-top: 50px;
+  width: 300px;
+}
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+  .card h3{
+    margin-left: 110px;
+    font-family:Elephant ;
+  }
+  .card p{
+    margin-left: 110px;
+    font-family: Cooper;
+  }
+  .card button{
+    padding: 7px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 4px;
+    margin-left: 100px;
+    transition: 1s;
+    color: black;
+  }
+  .card button:hover{
+    background-color: #181717;
+    color: white;
+  }
+  .a {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    position: relative;
+    margin: 16px;
+    margin-top: -420px;
+    margin-left: 450px;
+    width: 300px;
+  }
+  .a img {
+    max-width: 100%;
+    height: auto;
+    
+  }
+    .a h3{
+      margin-left: 110px;
+      text-decoration: none;
+      color: #181717;
+      font-family:Elephant ;
+    }
+    .a p{
+      margin-left: 110px;
+      font-family: Cooper;
+    }
+    .a button{
+      padding: 7px;
+      margin-top: 10px;
+      background-color: white;
+      border-radius: 4px;
+      margin-left: 100px;
+      transition: 1s;
+      color: black;
+    }
+    .a button:hover{
+      background-color: #181717;
+      color: white;
+    }
+    
+  .a1 {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    position: relative;
+    margin: 16px;
+    margin-top: -433px;
+    margin-left: 830px;
+    width: 300px;
+  }
+  .a1 img {
+    max-width: 100%;
+ 
+    
+  }
+    .a1 h3{
+      margin-left: 110px;
+      font-family:Elephant ;
+    }
+    .a1 p{
+      margin-left: 110px;
+      font-family: Cooper;
+    }
+    .a1 button{
+      padding: 7px;
+      margin-top: 10px;
+      background-color: white;
+      border-radius: 4px;
+      margin-left: 100px;
+      transition: 1s;
+      color: black;
+    }
+    .a1 button:hover{
+      background-color: #181717;
+      color: white;
+    }
+    .a button a{
+      text-decoration: none;
+      color: #181717;
+    }
+    /* page4 end */
+
+    .page6 h1{
+      text-align: center;
+      margin-top: 130px;
+      font-family: Cooper;
+    
+    }
+    .page6 .img5 img{
+      height: 500px;
+      width: 650px;
+    } 
+    .page6 .font3 h3{
+      color: black;
+      font-weight: bold;
+      font-family: Centaur;
+      margin-right: 170px;
+      float: right;
+      margin-top: -450px;
+    
+    }
+    
+    .page6 .font3 p{
+      color: black;
+      font-weight: bold;
+      font-family: Centaur;
+      float: right;
+      margin-top: -424px;
+      font-size: 19px;
+      margin-left: 700px;
+    
+    }
+    .page6 .font3 li{
+      margin-left: 760px;
+      font-family: Centaur;
+      font-weight: bold;
+      font-size: 22px;
+      top: -240px;
+      position: relative;
+    }
+    .page6 .font3 h4{
+      color: black;
+      font-weight: bold;
+      font-family: Centaur;
+      margin-top: -220px;
+      font-size: 19px;
+      margin-left: 870px;
+    
+    }
+
+    /* page6 end */
+    .page7 h1{
+      margin-top: 60px;
+        font-family: Cooper;
+        transition: 1s;
+        text-align: center;
+      }
+      .page7 h1:hover{
+        color: orange;
+  
+      }
+      .page7 .img7 img{
+        margin-top: 50px;
+        height: 400px;
+        width: 590px;
+        float: right;
+        
+      }
+      .font7{
+        height: 400px;
+        width: 629px;
+        text-decoration: none;
+        margin-top: 50px;
+        background-color: rgb(247, 177, 47);
+      }
+   
+      .font7 h3{
+        font-family: Cooper;
+        margin-top: 50px;
+        margin-left: 60px;
+        float: left;
+      }
+      .font7 p{
+        font-family:Centaur;
+        margin-top: 80px;
+        font-size: 24px;
+        margin-left: 50px;
+        font-weight: bold;
+        
+      }
+      .font7 button{
+        background-color: black;
+        color: white;
+        padding: 14px ;
+        margin-top: -100px;
+        margin-left: 36px;
+        border: none;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 1s;
+        border-radius: 13px;
+  
+      }
+      .font7 button:hover{
+        background-color: palevioletred;
+        color: black;
+      }
+/* footer */
+.footer{
+  height: 250px;
+  transition: 3s;
+  width: 1156px;
+  background-color: rgb(31, 29, 29);
+  padding: 30px;
+  margin-top: 80px;
+}
+.footer .footer1.p{
+ color: white;
+
+}
+.footer2{
+  margin-top: -200px;
+  margin-left: 350px;
+  color: aliceblue;
+}
+.footer2 h4{
+  color: white;
+  font-family: cooper;
+  margin-left: -30px;
+  font-size: 25px;
+}
+
+.footer3 {
+  margin-top: -140px;
+  margin-left: 580px;
+  color: white;
+  
+}
+.footer3 h4{
+  font-weight: bold;
+  font-family: cooper;
+  font-size: 25px;
+}
+.footer3 ul li{
+  display: flex;
+  margin-left: px;
+}
+.footer4{
+    color: white;
+    margin-top: 100px;
+    margin-left: 830px;
+}
+.footer4 h4{
+  color: white;
+  font-family: cooper;
+  margin-top: -255px;
+  font-size: 25px;
+}
+.footer5 .text-center{
+  margin-top: -30px;
+  color: white;
+  text-align: center;
+}
+.footer2 .footer-links a{
+  text-decoration: none;
+  color: white;
+}
+
+.footer2 .footer-links a:hover{
+  color: orange;
+}
+.footer3 ul li:hover{
+  color: orange;
+}
+.footer4 .add:hover{
+  color: orange;
+}
+.footer h4:hover{
+  color: orange;
+}
+
+  
+  
+
+  
+
+
+
+
+  
+  @media(max-width: 800px){
+    .hideOnMobile{
+      display: none;
+    }
+    .menu-button{
+      display: block;
+    }
+  }
+  @media(max-width: 400px){
+    .sidebar{
+      width: 100%;
+    }
+  }
+
+   @media screen and (max-width:1000px){
+   .page img{
+    height: auto;
+    width: 100%;
+   }
+   .page .font h1{
+    margin: auto;
+    font-size: 10px;
+    margin-top: -100px;
+
+   }
+   .page .font p{
+    margin: auto;
+    font-size: 10px;
+
+   }
+   .logo{
+    font-size: 15px;
+    margin: auto;
+   }
+   .page2{
+    margin-top: -100px;
+   }
+   .page2 .img3 img{
+    width: 80%;
+    height: auto;
+  }
+
+   .page2 .font1 p{
+    font-size: 10px;
+    margin: auto;   
+  } 
+  .page2 .icon{
+    margin: auto;
+    display: none;
+  }
+  .page2 .font1 h1{
+    margin: auto;
+    text-align: justify;
+  } 
+  .page2 .button{
+    margin: auto;
+
+  }
+ .page3 .img3 img{
+  height: auto;
+  width: 100%;
+ }
+ .font3 h3{
+  margin: auto;
+  font-size: 20px;
+ }
+ .font3 p{
+  margin: auto;
+ }
+ .page4{
+  display: inline;
+  margin: auto;
+ }
+ .page4 .card{
+  margin: auto;
+ }
+ .page4 .a{
+  margin: auto;
+ }
+ .page4 .a1{
+
+  margin: auto;
+ }
+ .page5{
+  margin: auto;
+  display: inline;
+ }
+
+ .page6 .font3 h1{
+  margin: auto;
+  
+}
+.page6 .img5 img{
+margin: auto;
+height: auto;
+width: 70%;
+}
+.page6 .font3 h3{
+  margin: auto;
+ 
+}
+.page6 .font3 p{
+  margin: auto;
+  float: left;
+}
+.page6 .font3 li{
+  display: none;
+}
+
+.page7 h1{ 
+  margin: auto;
+  font-size: 20px;
+}
+.page7 .img7 img{
+  margin: auto;
+  height: auto;
+  width: 100%;
+}
+.page7 .font7{
+  margin: auto;
+  background-color: white;
+}
+.page7 h3{
+  margin: auto;
+
+}
+.page7 .font7 p{
+  margin: auto;
+  font-size: 13px;
+  display: none;
+}
+
+.footer{
+  margin: auto;
+  background-color: black;
+  height: 100%;
+}
+.footer1{
+  margin: auto;
+}
+.footer2{
+  margin: auto;
+  margin-top:70px;
+}
+.footer3{
+  margin: auto;
+  margin-top: 70px;
+}
+.footer4{
+  margin: auto;
+  margin-top: 200px;
+}
+.footer5{
+  margin: auto;
+  margin-top: 249px;
+}
+
+
+    
+  }
